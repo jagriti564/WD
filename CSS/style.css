@@ -1,0 +1,19 @@
+p{
+    color: green !important;
+    font-size: 100px;
+    text-align: center;
+    text-decoration: underline;
+    font-style: italic;
+    font-weight: bold;
+}
+div{
+    border: 2px solid black;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    font-size: 100px;
+    background-color: pink;
+    background-image: url("https://cdn.pixabay.com/photo/2018/08/23/07/35/thunderstorm-3625405_1280.jpg");
+    background-repeat: no-repeat;
+    background-size:cover;
+}
