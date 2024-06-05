@@ -1,0 +1,27 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 10px;
+    position: absolute;
+}
+.div1{
+    background-color: aqua;
+    margin: 40px 0 0 40px;
+    z-index: 4;
+}
+.div2{
+    background-color: pink;
+    margin: 80px 0 0 80px;
+    z-index: 5;
+}
+.div3{
+    background-color: yellow;
+    margin: 120px 0 0 120px;
+    z-index: 3;
+}
+.div4{
+    background-color: green;
+    margin: 160px 0 0 160px;
+    z-index: 2;
+}
