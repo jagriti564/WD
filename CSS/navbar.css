@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: #333;
+    color: #fff;
+    margin: 20px;
+}
+ul{
+    display: flex;
+}
+li{
+    padding: 5px 8px;
+    list-style-type: none;
+}
+li:hover{
+    background-color: rgb(46, 219, 46);
+}
+
