@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+    box-shadow: 0 0 20px gray;
+}
+.nav li{
+    padding: 10px 20px;
+    letter-spacing: 5px;
+}
+.nav li:hover{
+background-color: rgb(178, 171, 171);
+}
+.submain2{
+    display: flex;
+}
