@@ -134,3 +134,37 @@ section{
     padding-bottom: 50px;
     letter-spacing: 5px;
 }
+.contact h3{
+    color: #607D8B;
+    padding: 20px 0;
+}
+.contact h4{
+    font-weight: 400;
+}
+.contact form{
+    width: 100;
+    margin: 20px 0;
+}
+input[type="text"],input[type="number"],input[type="datetime-local"]{
+    width: 100%;
+    padding: 10px 0px;
+    margin: 10px;
+    border: none;
+    border-bottom: 1px solid rgb(207, 203, 203);
+}
+.contact form button{
+    border: none;
+    background-color: rgba(247, 236, 236, 0.748);
+    padding: 10px 20px;
+    margin: 20px 0 0 10px;
+}
+.contact form button:hover{
+    background-color: #CCCCCC;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #F1F1F1;
+}
