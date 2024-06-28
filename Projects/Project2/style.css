@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.headerImg{
+    background-image: url("https://www.w3schools.com/w3images/wedding_couple.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.headerContent{
+    color: #ffffff;
+    text-align: center;
+    font-family: "Raleway", sans-serif;
+}
+.headerContent h1{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+.headerContent p{
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 3px;
+    word-spacing: 2px;
+    padding: 20px 0;
+}
+.headerContent h4{
+    font-size: 30px;
+    /* font-weight: 400; */
+    letter-spacing: 3px;
+    
+}
