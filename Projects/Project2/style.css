@@ -125,7 +125,83 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.subContainer1{
+.container3 .subContainer1{
     display: flex;
     justify-content: space-around;
+    font-family: "Raleway", sans-serif;
+}
+.container3 .subContainer1 div h2,h4 {
+    padding: 10px 0;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 35vh;
+    background-color: #FFDDDD;
+    align-items: center;
+    font-family: "Raleway", sans-serif;
+
+}
+.container4 .subContainer1 {
+    text-align: center;
+}
+.container4 .subContainer1 h1,h3,button{
+    padding: 15px;
+    word-spacing: 2px;
+    letter-spacing: 5px;
+}
+.container4 .subContainer1 h1{
+    font-weight: 100;
+    
+}
+.container4 .subContainer1 h3{
+    font-size: 15px;
+    font-weight: 100;
+}
+.container4 .subContainer1 button{
+    border: none;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding: 20px 40px;
+    font-size: 20px;
+    margin: 20px;
+    letter-spacing: 0;
+}
+.container4 .subContainer1 button:hover{
+    background-color: #CCCCCC;
+    color: #111;
+}
+footer{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer a {
+    color: white;
+}
+nav{
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    padding: 3px;
+}
+nav ul li{
+    padding: 10px 208px;
+}
+nav ul li:hover{
+    background-color: black;
+    color: white;
 }
