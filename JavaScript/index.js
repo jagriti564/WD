@@ -1,11 +1,17 @@
-// var a = 7;
-// var a = 5;
+// var a =4;
+// var a =5
+// console.log(a);
 
-// let a = 7;
-// a = 5;
+// let a = 5;
+// a = 6
+// console.log(a);
+
+// const a = 5;
+// a = 6
 // console.log(a);
 
 
-// const a = 3.14;
-// console.log(a);
-
+const a = 3.14;
+let b = 3;
+// b =5
+console.log(a+b);

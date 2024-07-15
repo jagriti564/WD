@@ -1,0 +1,13 @@
+body{
+    background-color: rgba(34, 225, 34, 0.445);
+}
+
+@media (max-width:480px) {
+    body{
+        background-color: rgba(198, 69, 69, 0.528);
+    }
+    h1{
+        text-align: center;
+        color: white;
+    }
+}
