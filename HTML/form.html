@@ -1,30 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Form</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>form</title>
+    <style>
+    table{ width:100%;
+            border-collapse: collapse;}
+</style>
 </head>
 <body>
-    <form>
-        <!-- <label for="fname">First Name</label><br> -->
-        <input type="text" name="fname" id="fname" required placeholder="First Name"><br><br>
-        <label for="lname">Last Name</label><br>
-        <input type="text" name="lname" id="lname"><br><br>
-        <label for="email">Email</label><br>
-        <input type="email" name="email" id="email" required><br><br>
-        <label for="phone">Phone No</label><br>
-        <input type="tel" name="phone" id="phone" maxlength="10" required><br><br>
-        <label for="gender">Gender</label>
-        <input type="radio" name="gender" id="male">Male
-        <input type="radio" name="gender" id="female">Female
-        <input type="radio" name="gender" id="other">Other <br><br>
-        <label for="hobbies">Hobbies</label>
-        <input type="checkbox" name="travling" id="travling">Travling
-        <input type="checkbox" name="reading" id="reading">Reading
-        <input type="checkbox" name="coding" id="coding">Coding <br><br>
-        <input type="reset" value="Reset">
-        <input type="submit" value="Submit">
-    </form>
+<form>
+    <table>
+    <tr>
+<td><label for="fname"> first name</label>
+</td>
+<td>
+<input type="text" name="fname" id="fname">
+</td>
+</tr>
+<tr>
+    <td><label for="lname"> last name</label>
+</td>
+<td>
+    <input type="text" name="lname">
+</td>
+
+</tr>
+</form>
 </body>
 </html>
